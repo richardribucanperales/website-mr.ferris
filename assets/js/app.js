@@ -69,7 +69,7 @@ function greenChange(){
 	a.innerHTML = gre[4];
 }
 function libChange(){
-	var lib = ["They believe that you are a unique and responsible individual. They strongly oppose Government interference into personal, family, and business decisions. They believe that Americans should be free to live their lives and pursue their interests as they see fit, just as long as it doesn’t harm others. (LP)", "They were founded in 1971, and by the Presidential election of 1972, the Libertarian party had 80 party members and attained ballot access in two states. (LP)", "Here’s some of the issues they face:<li><ul>Free to Decide to Pay Taxes</ul><ul>The Economy</ul><ul>Civil Liberties</ul><ul>Crime and Justice</ul><ul>Education</ul><ul Foreign Policy</ul><ul>Healthcare</ul><ul>Right to own a firearm</ul><ul>War on Drugs</ul><ul>Immigration</ul><li>", "The website is well designed and looks very appealing. It has a donate page, join us page, a store, and a media page where they post all their twitter posts and current news with the party.", "They try to appeal to the younger generation that believes in the people, not the government."];
+	var lib = ["They believe that you are a unique and responsible individual. They strongly oppose Government interference into personal, family, and business decisions. They believe that Americans should be free to live their lives and pursue their interests as they see fit, just as long as it doesn’t harm others. (LP)", "They were founded in 1971, and by the Presidential election of 1972, the Libertarian party had 80 party members and attained ballot access in two states. (LP)", "Here’s some of the issues they face:<li><ul>Free to Decide to Pay Taxes</ul><ul>The Economy</ul><ul>Civil Liberties</ul><ul>Crime and Justice</ul><ul>Education</ul><ul> Foreign Policy</ul><ul>Healthcare</ul><ul>Right to own a firearm</ul><ul>War on Drugs</ul><ul>Immigration</ul><li>", "The website is well designed and looks very appealing. It has a donate page, join us page, a store, and a media page where they post all their twitter posts and current news with the party.", "They try to appeal to the younger generation that believes in the people, not the government."];
 
 	var s = document.getElementById("standp")
 	var h = document.getElementById("historyp")
@@ -116,4 +116,72 @@ function ampChange(){
 	p.innerHTML = amp[2];
 	f.innerHTML = amp[3];
 	a.innerHTML = amp[4];
+}
+function indChange(){
+	var ind = ["American Independant Party", "iAround 1968", "1968, got 10 million votes and won 5 southern states.", "1968, 14% national vote", "Very liberal, right wing"];
+	var s = document.getElementById("standp")
+	var h = document.getElementById("historyp")
+	var p = document.getElementById("policyp")
+	var f = document.getElementById("featp")
+	var a = document.getElementById("appealp")
+	var im = document.getElementById("picture")
+	var col = document.getElementById("color")
+	col.style.backgroundColor = "blue";
+	im.src = "../assets/images/independantparty.jpg";
+	s.innerHTML = ind[0];
+	h.innerHTML = ind[1];
+	p.innerHTML = ind[2];
+	f.innerHTML = ind[3];
+	a.innerHTML = ind[4];
+}
+function jusChange(){
+	var jus = ["Justice Party", "2011", "2012, got 43000 ballots in 16 states", "2012, won 43000 votes mkaing it 7th place.", "Liberal"];
+	var s = document.getElementById("standp")
+	var h = document.getElementById("historyp")
+	var p = document.getElementById("policyp")
+	var f = document.getElementById("featp")
+	var a = document.getElementById("appealp")
+	var im = document.getElementById("picture")
+	var col = document.getElementById("color")
+	col.style.backgroundColor = "blue";
+	im.src = "../assets/images/justiceparty.png";
+	s.innerHTML = jus[0];
+	h.innerHTML = jus[1];
+	p.innerHTML = jus[2];
+	f.innerHTML = jus[3];
+	a.innerHTML = jus[4];
+}
+function vetChange(){
+	var vet = ["Veterans Party of America", "2003, legally dissolved in 2013, reintroduced 2014", "2016, 13th place with 70004 ballots", "2016, 13th place, 70004 ballots", "Moderate, but more towards conservative."]
+	var s = document.getElementById("standp")
+	var h = document.getElementById("historyp")
+	var p = document.getElementById("policyp")
+	var f = document.getElementById("featp")
+	var a = document.getElementById("appealp")
+	var im = document.getElementById("picture")
+	var col = document.getElementById("color")
+	col.style.backgroundColor = "blue";
+	im.src = "../assets/images/veteransparty.jpg";
+	s.innerHTML = vet[0];
+	h.innerHTML = vet[1];
+	p.innerHTML = vet[2];
+	f.innerHTML = vet[3];
+	a.innerHTML = vet[4];
+}
+function whigChange(){
+	var whig = ["Modern Whig Party", "2008","?","?","Centralists"];
+	var s = document.getElementById("standp")
+	var h = document.getElementById("historyp")
+	var p = document.getElementById("policyp")
+	var f = document.getElementById("featp")
+	var a = document.getElementById("appealp")
+	var im = document.getElementById("picture")
+	var col = document.getElementById("color")
+	col.style.backgroundColor = "blue";
+	im.src = "../assets/images/whigsparty.jpg";
+	s.innerHTML = whig[0];
+	h.innerHTML = whig[1];
+	p.innerHTML = whig[2];
+	f.innerHTML = whig[3];
+	a.innerHTML = whig[4];
 }
