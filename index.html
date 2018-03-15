@@ -4,18 +4,48 @@
 	<!--made by Richard-->
 	<meta charset="UTF-8">
 	<meta name="viewport" content = "width=device-width, initial-scale=1.0">
-	<link href = "./assets/css/styles.css">
+	<link href = "./assets/css/styles.css" rel = "stylesheet">
 	<title>The Political Parties</title>
 </head>
 <body>
 	<div id = "container">
 		<div id = "topbar">
+			<div id = "mainparties" class = "dropdown">
+				<button class = "dropbtn">Main Parties</button>
+				<div class="dropdown-content">
+					<button class = "dropbutton" onclick = "repChange()">Republican</button>
+					<button class = "dropbutton">Democratic</button>
+					<button class = "dropbutton">Green Party</button>
+					<button class = "dropbutton">Libertarian</button>
+					<script src = "./assets/js/app.js"></script>
+				</div>
+			</div>
 			<h1 id = "title">The Political Parties</h1>
 			<p id = "title-slogan">Created under the Mr. Ferris project</p>
 		</div>
 		<div id = "body">
-			<p id = "introp">I created this website to go over and beyond and try to show off the skills I learned in Coding 1, and encourage the younger ones to join in and learn this awesome skill. This also will help further my knowledge and hone my skills in coding.</p>
+			<p id = "introp">I created this website to go over and beyond and try to show off the skills I learned in Coding 1, and encourage the younger ones to join in and learn this awesome skill.<br> This also will help further my knowledge and hone my skills in coding.</p>
 			<div id = "change">
-				<h2 id = "party">
+				<div id = "image">
+					<p id = "imagep">Party Picture</p>
+					<img id = "picture" src = "./assets/images/sample.jpg">
+				</div>
+				<div id = "color">
+					<p id = "colorp">Party Color</p>
+				</div>
+				<h2 id = "party"></h2>
+				<h3 id = "stand" class = "subheader">What they stand for</h3>
+				<p id ="standp" class = "bodyp"></p>
+				<h3 id = "history" class = "subheader">Brief History</h3>
+				<p id ="historyp" class = "bodyp"></p>
+				<h3 id = "policy" class = "subheader">Main Public Policy Issues</h3>
+				<p id ="policyp" class = "bodyp"></p>
+				<h3 id = "feat" class = "subheader">Features of the Website</h3>
+				<p id ="featp" class = "bodyp"></p>
+				<h3 id = "appeal" class = "subheader">Demographic or Interest Groups they try to appeal to</h3>
+				<p id ="appealp" class = "bodyp"></p>
+			</div>
+		</div>
+	</div>
 </body>
 </html>

@@ -1,0 +1,92 @@
+body{
+	font-family:arial;
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	margin-top:0px;
+}
+#topbar{
+	background-color:grey;
+	width:auto;
+	height:60px;
+}
+#title{
+	margin-top:inherit;
+	margin-bottom:inherit;
+	margin-left:5px;
+}
+#title-slogan{
+	margin-top:inherit;
+	margin-left:10px;
+}
+#image{
+	height:350px;
+	width:300px;
+	background-color:grey;
+	position:relative;
+	float:right;
+	margin-right:20px;
+	display:inline;
+}
+#imagep{
+	text-align:center;
+	font-size:20px;
+	margin-bottom:auto;
+}
+#picture{
+	height:290px;
+	width:290px;
+	margin-left:5px;
+}
+#color{
+	background-color:pink;
+	height:60px;
+	width:300px;
+	position:relative;
+	clear:both;
+	float:right;
+	margin-right:20px;
+	margin-top:10px;
+}
+#colorp{
+	text-align:center;
+}
+.dropbtn {
+    background-color: grey;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    float:right;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float:right;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    z-index: 0;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropbutton{
+	background-color:grey;
+	border:0px;
+	width:120px;
+	height:20px;
+}
