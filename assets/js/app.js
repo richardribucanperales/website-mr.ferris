@@ -86,3 +86,34 @@ function libChange(){
 	f.innerHTML = lib[3];
 	a.innerHTML = lib[4];
 }
+	var s = document.getElementById("standp")
+	var h = document.getElementById("historyp")
+	var p = document.getElementById("policyp")
+	var f = document.getElementById("featp")
+	var a = document.getElementById("appealp")
+	var im = document.getElementById("picture")
+	var col = document.getElementById("color")
+	col.style.backgroundColor = "blue";
+	im.src = "../assets/images/";
+	s.innerHTML = [0];
+	h.innerHTML = [1];
+	p.innerHTML = [2];
+	f.innerHTML = [3];
+	a.innerHTML = [4];
+function ampChange(){
+	var amp = ["The American Party", "1972", "1976, Tom Anderson carried 161,000 votes", "Unkown, but most popular vote was in 1976", "Very Conservative, Christian Splinter"];
+	var s = document.getElementById("standp")
+	var h = document.getElementById("historyp")
+	var p = document.getElementById("policyp")
+	var f = document.getElementById("featp")
+	var a = document.getElementById("appealp")
+	var im = document.getElementById("picture")
+	var col = document.getElementById("color")
+	col.style.backgroundColor = "blue";
+	im.src = "../assets/images/americanparty.jpg";
+	s.innerHTML = amp[0];
+	h.innerHTML = amp[1];
+	p.innerHTML = amp[2];
+	f.innerHTML = amp[3];
+	a.innerHTML = amp[4];
+}
